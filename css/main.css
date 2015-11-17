@@ -112,7 +112,7 @@ Page: Portfolio
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: #bdc3c7
+  color: #bdc3c7;
 }
 
 #gallery li a p {
@@ -120,7 +120,10 @@ Page: Portfolio
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+  height: 40px;
 }
+
+
 
 
 

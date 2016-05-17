@@ -140,7 +140,7 @@ Page: About
   float: left;
   margin-top: 60px;
   width: 30%;
-  height: 100vw;
+  height: auto;
 }
 
 #about-data{

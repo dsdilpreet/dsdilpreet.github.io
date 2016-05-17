@@ -13,7 +13,7 @@ a {
 }
 
 img {
-  max-width:100% 
+  max-width:100%
 }
 
 body{
@@ -22,7 +22,7 @@ body{
 }
 
 h3 {
-  margin: 0 0 1em 0; 
+  margin: 0 0 1em 0;
 }
 
 /***********************************
@@ -72,7 +72,7 @@ nav ul {
 }
 
 nav li{
-  display:inline-block; 
+  display:inline-block;
 }
 
 nav a {
@@ -135,13 +135,28 @@ Page: Portfolio
 /***********************************
 Page: About
 ***********************************/
+
+#profile-pic-div{
+  float: left;
+  margin-top: 60px;
+  width: 30%;
+  height: 100vw;
+}
+
+#about-data{
+  width: 70%;
+  float:right;
+}
+
 #profile-pic {
-  display: block;
   border-radius: 100%;
   height: 200px;
   margin: 10px auto 40px;
 }
 
+#about-li {
+  margin-left: 20px;
+}
 
 
 /***********************************
@@ -162,7 +177,7 @@ Page: Contact
   padding: 0 0 0 30px;
   margin: 0 0 10px 0;
   background-size: 25px 25px;
-  
+
 }
 .contact-info li.phone a {
   background-image:url("../img/phone.png");
@@ -194,14 +209,13 @@ header{
 
 /* navigation colours */
 nav {
-  background:#599a68;  
+  background:#599a68;
 }
 
 nav a, nav a:visited {
-  color:#fff; 
+  color:#fff;
 }
 
 nav a.selected, nav a:hover {
-  color: #32673f; 
+  color: #32673f;
 }
-

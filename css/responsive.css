@@ -2,25 +2,25 @@
   /* gallery page */
   #gallery li{
      margin:5%;
-     width: 90%; 
+     width: 90%;
   }
 }
 
 @media screen and (min-width:401px){
 
-  
+
 /* gallery page */
   #gallery li{
-     width: 45%; 
+     width: 45%;
   }
 }
 
 @media screen and (min-width:730px){
    /* gallery page */
   #gallery li{
-     width: 28.3%; 
+     width: 28.3%;
   }
-  
+
  /* header */
   nav {
     float:right;
@@ -31,7 +31,7 @@
     margin-right:5%;
     padding-top:0;
   }
-  
+
   #logo {
     background:none;
     float:left;
@@ -42,18 +42,18 @@
     margin-top:-25px;
     margin-bottom:20px;
   }
-  
+
   header{
     border-bottom: solid 7px #599a68;
     margin-bottom: 60px;
   }
-  
+
   h1{
-    font-size:2.15em; 
+    font-size:2.15em;
   }
-  
+
   h2{
-    font-size:0.85em; 
+    font-size:0.85em;
   }
 
 /* contact page*/
@@ -61,9 +61,9 @@
     width: 50%;
     float: left;
   }
-  
+
   #secondary {
-    width: 40%; 
+    width: 40%;
     float:right;
   }
 
@@ -74,4 +74,25 @@
   margin-right: 5%;
   margin-top: -10px;
  }
+}
+
+@media screen and (max-width:950px){
+  #profile-pic-div{
+    margin-top: 20px;
+    clear: both;
+    display: block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  #profile-pic{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-data{
+    clear: both;
+    width: 100%;
+  }
 }
